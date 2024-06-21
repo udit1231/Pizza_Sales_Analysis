@@ -62,7 +62,7 @@ A. KPI's
            
            SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
            
-![Snap_Count](https://1drv.ms/i/c/0ea604c4fa57e70d/EaF1jUnARtZNtktGqNv3DvQBqXhscOdNy3F7SXfQkM_GWQ?e=PIozfV)
+![Snap_1](https://1drv.ms/i/c/0ea604c4fa57e70d/EaF1jUnARtZNtktGqNv3DvQBqXhscOdNy3F7SXfQkM_GWQ?e=PIozfV)
 
 
 2. Average Order Value: 
