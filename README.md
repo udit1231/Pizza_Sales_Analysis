@@ -67,7 +67,7 @@ A. KPI's
 
 2. Average Order Value: 
             
-           ```sql SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;```
+              SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;
 
 4. Total Pizza Sold:
 
