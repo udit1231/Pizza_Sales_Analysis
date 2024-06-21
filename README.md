@@ -25,7 +25,7 @@ CHARTS REQUIREMENT
 
 We would like to visualize various aspects of our pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts:
 
-# 1.Daily Trend for Total Orders
+### 1.Daily Trend for Total Orders
 Create a bar chart that displays the daily trend of total orders over a specific time period. This chart will help us identify any patterns or fluctuations in order volumes on a daily basis.
 
 2.Monthly Trend for Total Orders
