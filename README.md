@@ -54,7 +54,7 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 
 ### Steps followed 
 
-### -Step 1 : Calculate the KPI's which will be required as mentioned above. Queries and results are showned below:
+### Step 1 : Calculate the KPI's which will be required as mentioned above. Queries and results are showned below:
 
 A. KPI's
 
