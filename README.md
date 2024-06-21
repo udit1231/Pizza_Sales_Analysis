@@ -62,7 +62,7 @@ A. KPI's
            
            SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
            
-![Snap_1](C:\Users\udsh2\OneDrive\Pictures\Screenshots)
+![Snap_1](https://1drv.ms/i/c/0ea604c4fa57e70d/EaF1jUnARtZNtktGqNv3DvQBqXhscOdNy3F7SXfQkM_GWQ?e=PIozfV)
 2. Average Order Value: 
             
            SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;
