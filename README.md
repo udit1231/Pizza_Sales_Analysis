@@ -54,7 +54,19 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 
 ### Steps followed 
 
-- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
+### -Step 1 : Calculate the KPI's which will be required as mentioned above. Queries and results are showned below:
+
+
+
+           
+           1. Total Revenue:
+           SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
+           Although, by default, while calculating average, blank values are ignored.
+
+           1. Total Revenue:
+SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
+
+
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
 - Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Arrival Delay".
@@ -64,8 +76,6 @@ Create a bar chart showcasing the bottom 5 worst-selling pizzas based on the Rev
 - Step 8 : Visual filters (Slicers) were added for four fields named "Class", "Customer Type", "Gate Location" & "Type of travel".
 - Step 9 : Two card visuals were added to the canvas, one representing average departure delay in minutes & other representing average arrival delay in minutes.
            Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
-           
-           Although, by default, while calculating average, blank values are ignored.
 - Step 10 : A bar chart was also added to the report design area representing the number of satisfied & neutral/unsatisfied customers. While creating this visual, field named "Gender" was also added to the Legends bucket, thus number of customers are also seggregated according the gender. 
 - Step 11 : Ratings Visual was used to represent different ratings mentioned below,
 
