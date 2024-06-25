@@ -62,7 +62,7 @@ A. KPI's
            
            SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
 
-   ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Avg%20Pizza%20by%20order.png?raw=true)
+
 2. Average Order Value: 
             
            SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales;
@@ -78,6 +78,7 @@ A. KPI's
 6. Average Pizzas Per Order
 
            SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))AS Avg_Pizzas_per_order FROM pizza_sales;
+      ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Avg%20Pizza%20by%20order.png?raw=true)
 
 B. Daily Trend for Total Orders
 
