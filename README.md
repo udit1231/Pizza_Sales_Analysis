@@ -74,16 +74,19 @@ A. KPI's
 4. Total Pizza Sold:
 
            SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales;
+   
    ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Total%20Pizza%20sold.png?raw=true)
 
 6. Total Orders
 
           SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;
+   
    ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Total%20orders.png?raw=true)
 
 8. Average Pizzas Per Order
 
            SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))AS Avg_Pizzas_per_order FROM pizza_sales;
+   
       ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Avg%20Pizza%20by%20order.png?raw=true)
 
 B. Daily Trend for Total Orders
@@ -95,6 +98,7 @@ B. Daily Trend for Total Orders
 C. Monthly Trend for Orders
            
            SELECT DATENAME(MONTH, order_date) AS Month_Name, COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales GROUP BY DATENAME(MONTH, order_date);
+           
 ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Monthly%20trends.png?raw=true)
 
 D. % of Sales by Pizza Category
@@ -127,9 +131,11 @@ H. Bottom 5 Pizzas by Revenue
            SELECT Top 5 pizza_name, SUM(total_price) AS Total_Revenue FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Revenue ASC;
 
 ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/bottom%205%20by%20revenue.png?raw=true)
+
 I. Top 5 Pizzas by Quantity
 
            SELECT Top 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Pizza_Sold DESC;
+           
 ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/top%205%20by%20quality.png?raw=true)
 
 
@@ -149,6 +155,8 @@ K. Top 5 Pizzas by Total Orders
 L. Bottom 5 Pizzas by Total Orders
 
            SELECT Top 5 pizza_name, COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Orders ASC;
+
+           
 ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/btm%205%20by%20orders.png?raw=true)
 
 
