@@ -61,6 +61,7 @@ A. KPI's
 1. Total Revenue:
            
            SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
+   
     ![Alt text]((https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Total%20Revenue.png?raw=true))
 
 
