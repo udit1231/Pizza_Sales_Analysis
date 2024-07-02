@@ -161,35 +161,31 @@ L. Bottom 5 Pizzas by Total Orders
 
 ### Step 3 Creation of dashboard on Power BI
 
-Description: Briefly describe the project, its goals, and the key business questions it aims to answer.
-Repository Structure: Outline the structure of your repository, including folders for data, scripts, documentation, and the Power BI file.
-Data Connection and Integration
+Description: This interactive Power BI dashboard provides a comprehensive analysis of pizza sales data, offering valuable insights into sales performance and customer preferences. The dashboard is designed to help stakeholders understand key metrics and make data-driven decisions to improve business operations.
 
-Connect to Data Sources: Describe how you connected to various data sources (e.g., databases, spreadsheets, cloud services).
-Import Data: Mention the tools and techniques used to import data into Power BI.
-Data Transformation and Preparation
+Connect to Data Sources: Import the data into our tool which we have stored into our system.
 
-Data Cleaning: Explain the process of cleaning data using Power Query (e.g., handling missing values, removing duplicates).
-Data Transformation: Detail the steps taken to transform raw data into structured formats (e.g., splitting columns, merging tables).
-Data Filtering and Aggregation: Describe how you filtered and aggregated data to prepare it for analysis.
-Data Modelling
 
-Define Relationships: Explain how you defined relationships between different data tables.
-Create Calculated Columns and Measures: Describe the use of DAX (Data Analysis Expressions) to create calculated columns and measures.
-Report and Dashboard Creation
+Design Reports: Sales Overview:
 
-Design Reports: Describe the design process for your reports, including the layout and selection of visuals (charts, graphs, tables).
-Develop Interactive Dashboards: Explain how you created interactive dashboards using Power BI Desktop.
-Custom Visuals: Mention any custom visuals implemented to meet specific business requirements.
-Data Analysis and Insights
+Total Sales and Revenue: Track overall sales and revenue trends over time.
+Sales Growth: Analyze month-over-month and year-over-year growth rates.
+Product Performance:
+
+Top-Selling Pizzas: Identify which pizza varieties are the most popular and their contribution to total sales.
+Product Mix: Understand the distribution of sales across different pizza categories.
+Customer Insights:
+
+Customer Demographics: Analyze customer age, gender, and location to tailor marketing strategies.
+Purchase Behavior: Examine average order value, frequency of orders, and preferred purchase times.
+Geographic Analysis:
+
+Regional Sales Distribution: Visualize sales performance across different geographic regions.
+Store Performance: Compare sales metrics between different store locations.
+Time-Based Analysis:
 
 Conduct Analysis: Detail the analysis performed to identify trends, patterns, and insights.
-Create KPIs: Describe the creation and monitoring of Key Performance Indicators (KPIs) to measure business performance.
-Publishing and Sharing
 
-Publish Dashboard: Explain the process of publishing your dashboard to Power BI Service or any other platform.
-Sharing and Collaboration: Describe how you shared your dashboard with stakeholders and collaborated for feedback.
-Documentation and Presentation
 
-Document the Process: Include detailed documentation in your GitHub repository, explaining each step and the rationale behind your decisions.
-Presentation: Describe how you presented your findings and insights to stakeholders, including any presentation materials or reports.
+
+
