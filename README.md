@@ -188,4 +188,4 @@ Conduct Analysis: Detail the analysis performed to identify trends, patterns, an
 
 ![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Screenshot%20(88).png?raw=true)
 
-
+![Alt text](https://github.com/udit1231/Pizza_Sales_Analysis/blob/main/Screenshot%20(89).png?raw=true)
